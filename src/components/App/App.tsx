@@ -3,11 +3,11 @@ import CafeInfo from '../CafeInfo/CafeInfo';
 import Notification from '../Notification/Notification';
 import VoteOptions from '../VoteOptions/VoteOptions';
 import VoteStats from '../VoteStats/VoteStats';
-import type { VoteType, VoteTypes } from '../../types/votes';
+import type { VoteType, Votes } from '../../types/votes';
 import styles from './App.module.css';
 
 function App() {
-  const [votes, setVotes] = useState<VoteTypes>({
+  const [votes, setVotes] = useState<Votes>({
     good: 0,
     neutral: 0,
     bad: 0,

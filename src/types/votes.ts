@@ -1,7 +1,7 @@
-export interface VoteTypes {
+export interface Votes {
   good: number;
   neutral: number;
   bad: number;
 }
 
-export type VoteType = keyof VoteTypes;
+export type VoteType = keyof Votes;
